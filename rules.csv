@@ -6,6 +6,8 @@ Clopidogrel,CYP2C19,PM,Avoid clopidogrel, use prasugrel or ticagrelor
 Clopidogrel,CYP2C19,IM,Reduced efficacy, consider alternative
 Clopidogrel,CYP2C19,EM,Use standard dose
 Warfarin,CYP2C9,PM,Start with lower dose, monitor INR closely
+Warfarin,CYP2C9,IM,Moderate dose reduction, monitor INR
 Warfarin,CYP2C9,EM,Use standard dose with INR monitoring
 Tamoxifen,CYP2D6,PM,Reduced efficacy, consider alternative therapy
 Tamoxifen,CYP2D6,EM,Use standard dose
+Tamoxifen,CYP2D6,UM,Increased metabolism, monitor efficacy
