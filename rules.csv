@@ -1,7 +1,17 @@
 drug,phenotype,recommendation
-CYP2C9,Poor metabolizer,Consider alternative or lower dose
+CYP2C9,Poor metabolizer,Consider alternative drug or reduce dose
 CYP2C9,Intermediate metabolizer,Use standard dose with INR monitoring
+CYP2C9,Normal metabolizer,Use standard dose
+
+CYP2C19,Poor metabolizer,Consider alternative drug
+CYP2C19,Intermediate metabolizer,Use lower dose or monitor closely
 CYP2C19,Normal metabolizer,Use standard dose
 CYP2C19,Rapid metabolizer,Consider higher dose
+CYP2C19,Ultrarapid metabolizer,Alternative therapy may be required
+
+CYP2D6,Poor metabolizer,Avoid drug or use alternative
+CYP2D6,Intermediate metabolizer,Use lower dose or monitor closely
 CYP2D6,Normal metabolizer,Use standard dose
+CYP2D6,Rapid metabolizer,Consider higher dose with monitoring
+CYP2D6,Ultrarapid metabolizer,Avoid standard dose – alternative drug recommended
 
