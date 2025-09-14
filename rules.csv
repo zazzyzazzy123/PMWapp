@@ -1,0 +1,5 @@
+drug,enzyme,example_genotypes,phenotype,action,short_recommendation,source
+codeine,CYP2D6,*1/*1,EM,standard,Proceed with standard therapy; consider monitoring,CPIC codeine CYP2D6
+codeine,CYP2D6,*3/*4,PM,avoid,Avoid codeine — consider alternative analgesic,CPIC codeine CYP2D6
+clopidogrel,CYP2C19,*1/*1,EM,standard,Standard clopidogrel use,CPIC clopidogrel CYP2C19
+clopidogrel,CYP2C19,*2/*2,PM,alternative,Use prasugrel or ticagrelor instead,CPIC clopidogrel CYP2C19
