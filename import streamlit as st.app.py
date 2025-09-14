@@ -3,9 +3,7 @@ import pandas as pd
 
 # Load rules
 rules = pd.read_csv("rules.csv")
-
-# Strip spaces from column names (important fix)
-rules.columns = rules.columns.str.strip().str.lower()
+rules.columns = rules.columns.str.strip().str.lower()  # clean headers
 
 st.title("Pharmacogenomic Dosing Prototype")
 
@@ -19,3 +17,5 @@ if not match.empty:
     st.write(match["recommendation"].values[0])
 else:
     st.warning("No rule available for this selection.")
+
+
